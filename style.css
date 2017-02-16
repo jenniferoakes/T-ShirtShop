@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  padding: 2em;
+}
+
+nav {
+  clear:both;
+  border-bottom: 1px solid #999999;
+}
+
+section {
+  float:left;
+  border: 2px solid #999999;
+  margin-left: 2em;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 2em;
+}
+
+ul {
+  list-style-type: none;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  width: 20%;
+  margin: 0;
+  float: left;
+  padding: 0;
+  text-align: center;
+}
+
+.pricing {
+  clear: both;
+}
+
+img {
+  float: left;
+  width: auto;
+  height: 250px;
+  width: 250px;
+  padding: 18px 0px 18px 18px;
+}
+
+.fa-undo {
+  border: 2px solid #999999;
+  padding: 0.2em;
+  transform: rotate(180deg);
+  border: 2px solid #999999;
+}
