@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
 body {
   font-family: Roboto, Arial, sans-serif;
   color: #65AADA;
@@ -9,7 +8,6 @@ body {
 .shirt {
   width: 400px;
 }
-
 
 nav > ul {
   border-top: 2px solid #65AADA;
@@ -76,7 +74,6 @@ article::after {
   display: block;
 }
 
-
 .sizingelements {
   height: 0;
   opacity: 0;
@@ -118,7 +115,7 @@ article::after {
   border-right: 2px solid #65AADA;
 }
 
-.sizing ul{
+.sizing ul {
   position: absolute;
   bottom: 4em;
   left: 0;
@@ -126,6 +123,50 @@ article::after {
   padding: 0;
   border: 2px solid #65AADA;
 }
+
+.square {
+  position: relative;
+}
+
+.square li {
+  display: block;
+  width: 50%;
+  margin: 0;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.square ul {
+  position: absolute;
+  border: 2px solid #65AADA;
+  background-color: #ffffff;
+  bottom: 4em;
+  width: 85px;
+  padding: 0;
+  height: 80px;
+  right: 0;
+  font-size: 2em;
+}
+
+
+
+#XL {
+  font-size: 0.95em;
+}
+#L {
+  font-size: 0.9em;
+}
+#M {
+  font-size: 0.85em;
+}
+#S {
+  font-size: 0.75em;
+}
+
+
+
 
 /*section.nav {
   border-right: 2px solid #999999;
