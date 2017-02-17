@@ -6,6 +6,10 @@ body {
   color: #65AADA;
 }
 
+.shirt {
+  width: 400px;
+}
+
 
 nav > ul {
   border-top: 2px solid #65AADA;
@@ -20,7 +24,6 @@ li {
   text-align: center;
   box-sizing: border-box;
   padding: 1em 0em 1em 0em;
-  border: 2px solid #65AADA;
 }
 
 .shirt img {
@@ -89,7 +92,7 @@ article::after {
 }
 
 .sizing li{
-  width: 25%;
+  width: 100%;
   text-align: center;
   display: block;
   vertical-align: middle;
@@ -100,21 +103,29 @@ article::after {
 
 .sizing {
   position: relative;
+  border-right: 2px solid #65AADA;
+}
+
+.square {
+  border-right: 2px solid #65AADA;
+}
+
+.heart {
+  border-right: 2px solid #65AADA;
+}
+
+.exchange {
+  border-right: 2px solid #65AADA;
 }
 
 .sizing ul{
   position: absolute;
-  top: -210px;
-  left: -40px;
-  width: 300px;
+  bottom: 3em;
+  left: 0;
+  width: 76px;
+  padding: 0;
+  border: 2px solid #65AADA;
 }
-
-
-  section {
-    float:left;
-    margin-top: 0 0 2em 2em;
-  }
-
 
 /*section.nav {
   border-right: 2px solid #999999;
