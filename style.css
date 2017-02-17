@@ -3,27 +3,12 @@
 
 body {
   font-family: Roboto, Arial, sans-serif;
-  padding: 2em;
+  color: #65AADA;
 }
 
-nav {
-  clear:both;
-  border-bottom: 1px solid #999999;
-}
 
-section {
-  float:left;
-  border: 2px solid #999999;
-  margin-left: 2em;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 2em;
-}
-
-ul {
-  list-style-type: none;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #999999;
+nav > ul {
+  border-top: 2px solid #65AADA;
   padding: 0;
 }
 
@@ -32,25 +17,106 @@ li {
   width: 20%;
   margin: 0;
   float: left;
-  padding: 0;
   text-align: center;
+  box-sizing: border-box;
+  padding: 1em 0em 1em 0em;
+  border: 2px solid #65AADA;
 }
 
-.pricing {
-  clear: both;
-}
-
-img {
-  float: left;
-  width: auto;
-  height: 250px;
-  width: 250px;
-  padding: 18px 0px 18px 18px;
+.shirt img {
+  width: 92%;
+  padding: 4%;
 }
 
 .fa-undo {
-  border: 2px solid #999999;
+  border: 2px solid #65AADA;
   padding: 0.2em;
   transform: rotate(180deg);
-  border: 2px solid #999999;
+  display: block;
+  width: 1em;
+  float: right;
+  border-bottom: none;
+  border-left: none;
 }
+
+.payment {
+  border-top: 2px solid #65AADA;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  clear: both;
+  box-sizing: border-box;
+  padding: 1em .5em 1em .5em;
+}
+
+p1 {
+  float: left;
+  width: 50%;
+  display: block;
+  font-weight: 100;
+}
+
+p2 {
+  text-align: right;
+  display: block;
+}
+
+article {
+  border-top: 2px solid #65AADA;
+  border-right: 2px solid #65AADA;
+  border-left: 2px solid #65AADA;
+}
+
+article::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+
+.sizingelements {
+  height: 0;
+  opacity: 0;
+  transition: all 1 linear;
+  font-size: 0;
+}
+
+.colorchooser {
+  height: 0;
+  opacity: 0;
+  transition: all 1 linear;
+  font-size: 0;
+}
+
+.sizing li{
+  width: 25%;
+  text-align: center;
+  display: block;
+  vertical-align: middle;
+  float: none;
+  border: none;
+  background-color: #ffffff;
+}
+
+.sizing {
+  position: relative;
+}
+
+.sizing ul{
+  position: absolute;
+  top: -210px;
+  left: -40px;
+  width: 300px;
+}
+
+
+  section {
+    float:left;
+    margin-top: 0 0 2em 2em;
+  }
+
+
+/*section.nav {
+  border-right: 2px solid #999999;
+  border-left: 2px solid #999999;
+}*/
