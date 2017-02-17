@@ -31,13 +31,13 @@ li {
 
 .fa-undo {
   border: 2px solid #65AADA;
-  padding: 0.2em;
   transform: rotate(180deg);
   display: block;
   width: 1em;
   float: right;
   border-bottom: none;
   border-left: none;
+  padding: 0.5em;
 }
 
 .payment {
@@ -149,6 +149,10 @@ article::after {
   font-size: 2em;
 }
 
+.fa-undo:hover {
+  color: #ffffff;
+  background-color: #65AADA;
+}
 
 
 #XL {
@@ -162,6 +166,22 @@ article::after {
 }
 #S {
   font-size: 0.75em;
+}
+
+#bluebox {
+  color: #80BBE5;
+}
+
+#pinkbox {
+  color: #D583AC;
+}
+
+#yellowbox {
+  color: #DEB17E;
+}
+
+#greenbox {
+  color: #8BB992
 }
 
 
