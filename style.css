@@ -142,11 +142,10 @@ article::after {
   position: absolute;
   border: 2px solid #65AADA;
   background-color: #ffffff;
-  bottom: 4em;
-  width: 85px;
-  padding: 0;
-  height: 80px;
-  right: 0;
+  bottom: 2em;
+  padding: 0.1em;
+  right: -5px;
+  left: -5px;
   font-size: 2em;
 }
 
