@@ -122,6 +122,7 @@ article::after {
   width: 76px;
   padding: 0;
   border: 2px solid #65AADA;
+  opacity: 0;
 }
 
 .square {
@@ -154,33 +155,50 @@ article::after {
   background-color: #65AADA;
 }
 
+.heart:hover, .cart:hover, .exchange:hover {
+  color: #ffffff;
+  background-color: #65AADA;
+}
 
-#XL {
+.sizing:hover {
+  color: #ffffff;
+  background-color: #65AADA;
+}
+
+.sizing:hover .allsizes {
+  color: #65AADA;
+  opacity: 1;
+}
+
+
+
+
+.XL {
   font-size: 0.95em;
 }
-#L {
+.L {
   font-size: 0.9em;
 }
-#M {
+.M {
   font-size: 0.85em;
 }
-#S {
+.S {
   font-size: 0.75em;
 }
 
-#bluebox {
+.bluebox {
   color: #80BBE5;
 }
 
-#pinkbox {
+.pinkbox {
   color: #D583AC;
 }
 
-#yellowbox {
+.yellowbox {
   color: #DEB17E;
 }
 
-#greenbox {
+.greenbox {
   color: #8BB992
 }
 
