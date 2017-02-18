@@ -27,6 +27,42 @@ li {
 .shirt img {
   width: 92%;
   padding: 4%;
+
+}
+
+aside {
+  position: relative;
+}
+
+.blueback {
+  position: absolute;
+  top: 2em;
+  opacity: 0;
+  transform: rotateY(45deg);
+}
+
+.bluefront:active {
+  transform: rotateY(0deg);
+}
+
+.fa-undo:active ~ .bluefront {
+  transform: rotateY(45deg);
+  transition: 1s linear;
+  opacity: 0;
+}
+
+.fa-undo:active ~ .blueback {
+  transform: rotateY(0);
+  transition: 1s linear;
+  opacity: 1;
+}
+
+.fa-undo:active .bluefront {
+  transform: 2s ease;
+}
+
+.fa-undo:active {
+  transition: 2s;
 }
 
 .fa-undo {
@@ -60,7 +96,7 @@ p1 {
 p2 {
   text-align: right;
   display: block;
-  font-weight: bolder
+  font-weight: bolder;
 }
 
 article {
