@@ -123,6 +123,7 @@ article::after {
   padding: 0;
   border: 2px solid #65AADA;
   opacity: 0;
+  transition: color;
 }
 
 .square {
@@ -148,6 +149,7 @@ article::after {
   right: -5px;
   left: -5px;
   font-size: 2em;
+  opacity: 0;
 }
 
 .fa-undo:hover {
@@ -168,9 +170,20 @@ article::after {
 .sizing:hover .allsizes {
   color: #65AADA;
   opacity: 1;
+  transition: 0.2s linear;
+  transform: translate(0, 1em);
 }
 
+.square:hover {
+  color: #ffffff;
+  background-color: #65AADA;
+}
 
+.square:hover .coloroptions {
+  opacity: 1;
+  transition: 0.2s linear;
+  transform: translate(0, 0.5em);
+}
 
 
 .XL {
