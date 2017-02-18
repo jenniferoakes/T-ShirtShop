@@ -252,6 +252,10 @@ article::after {
   color: #8BB992
 }
 
+section {
+  float: left;
+  padding: 1em;
+}
 
 
 
