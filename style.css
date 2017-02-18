@@ -60,6 +60,7 @@ p1 {
 p2 {
   text-align: right;
   display: block;
+  font-weight: bolder
 }
 
 article {
