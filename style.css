@@ -38,30 +38,97 @@ aside {
   position: absolute;
   top: 2em;
   opacity: 0;
-  transform: rotateY(45deg);
+  transform: rotateY(180deg);
 }
 
-.bluefront:active {
+.bluefront:hover {
   transform: rotateY(0deg);
 }
 
-.fa-undo:active ~ .bluefront {
-  transform: rotateY(45deg);
+.fa-undo:hover ~ .bluefront {
+  transform: rotateY(180deg);
   transition: 1s linear;
   opacity: 0;
 }
 
-.fa-undo:active ~ .blueback {
+.fa-undo:hover ~ .blueback {
   transform: rotateY(0);
   transition: 1s linear;
   opacity: 1;
 }
 
-.fa-undo:active .bluefront {
+.fa-undo:hover .bluefront {
   transform: 2s ease;
 }
 
-.fa-undo:active {
+/*yellowshirt css*/
+.yellowback {
+  position: absolute;
+  top: 2em;
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.yellowfront:hover {
+  transform: rotateY(0deg);
+}
+
+.fa-undo:hover ~ .yellowfront {
+  transform: rotateY(180deg);
+  transition: 1s linear;
+  opacity: 0;
+}
+
+.fa-undo:hover ~ .yellowback {
+  transform: rotateY(0);
+  transition: 1s linear;
+  opacity: 1;
+}
+
+.fa-undo:hover .yellowfront {
+  transform: 2s ease;
+}
+
+/*pinkshirt css*/
+.pinkback {
+  position: absolute;
+  top: 2em;
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.pinkfront:hover {
+  transform: rotateY(0deg);
+}
+
+.fa-undo:hover ~ .pinkfront {
+  transform: rotateY(180deg);
+  transition: 1s linear;
+  opacity: 0;
+}
+
+.fa-undo:hover ~ .pinkback {
+  transform: rotateY(0);
+  transition: 1s linear;
+  opacity: 1;
+}
+
+.fa-undo:hover .pinkfront {
+  transform: 2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-undo:hover {
   transition: 2s;
 }
 
@@ -162,6 +229,65 @@ article::after {
   opacity: 0;
   transition: color;
 }
+
+/*used http://www.cssarrowplease.com/ */
+.allsizes:after, .sizing:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.allsizes:after {
+	border-color: #65AADA;
+	border-top-color: #ffffff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.allsizes:before {
+	border-color: #65AADA;
+	border-top-color: #5BA3D6;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.coloroptions:after, .sizing:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.coloroptions:after {
+	border-color: #65AADA;
+	border-top-color: #ffffff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.coloroptions:before {
+	border-color: #65AADA;
+	border-top-color: #5BA3D6;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+/* http://www.cssarrowplease.com/ */
+
+
+
+
+
+
+
+
 
 .square {
   position: relative;
