@@ -47,18 +47,18 @@ aside {
 
 .fa-undo:hover ~ .bluefront {
   transform: rotateY(180deg);
-  transition: 1s linear;
+  transition: 0.5s linear;
   opacity: 0;
 }
 
 .fa-undo:hover ~ .blueback {
   transform: rotateY(0);
-  transition: 1s linear;
+  transition: 0.5s linear;
   opacity: 1;
 }
 
 .fa-undo:hover .bluefront {
-  transform: 2s ease;
+  transform: 0.5s ease;
 }
 
 /*yellowshirt css*/
@@ -75,18 +75,18 @@ aside {
 
 .fa-undo:hover ~ .yellowfront {
   transform: rotateY(180deg);
-  transition: 1s linear;
+  transition: 0.5ss linear;
   opacity: 0;
 }
 
 .fa-undo:hover ~ .yellowback {
   transform: rotateY(0);
-  transition: 1s linear;
+  transition: 0.5s linear;
   opacity: 1;
 }
 
 .fa-undo:hover .yellowfront {
-  transform: 2s ease;
+  transform: 0.5s ease;
 }
 
 /*pinkshirt css*/
@@ -103,30 +103,19 @@ aside {
 
 .fa-undo:hover ~ .pinkfront {
   transform: rotateY(180deg);
-  transition: 1s linear;
+  transition: 0.5s linear;
   opacity: 0;
 }
 
 .fa-undo:hover ~ .pinkback {
   transform: rotateY(0);
-  transition: 1s linear;
+  transition: 0.5s linear;
   opacity: 1;
 }
 
 .fa-undo:hover .pinkfront {
-  transform: 2s ease;
+  transform: 0.5s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .fa-undo:hover {
   transition: 2s;
